@@ -69,18 +69,22 @@ le resultat doit etre le suivant:
 * 
  -->
 
- <!-- <?php
-$star = 5;
-for ($i = 0 ; $i <= $star; $i++){
-    echo "*";
-} echo "<br>";
-    $star--;
-
- // if($i === $star){
-    //     echo "*";
-    // } echo "<br>";
-    //     $star ++;
-?> -->
+<?php
+$n = 1;
+while ($n < 13){
+    if($n <= 6){
+        for ($j=0 ; $j <= $n ; $j++){
+            echo "* ";
+        } 
+        echo "\n";
+    }else {
+        for ($j = 0 ; $j <= 13-$n ; $j++){
+        echo "* ";
+    }
+    echo "\n";
+} 
+}
+?>
 
 <!--loops 5 ------------------------------------------------------------ -->
 <!-- 
