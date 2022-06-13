@@ -68,7 +68,7 @@ le resultat doit etre le suivant:
 * * 
 * 
  -->
-
+<!-- 
 <?php
 $n = 1;
 while ($n < 13){
@@ -84,7 +84,7 @@ while ($n < 13){
     echo "\n";
 } 
 }
-?>
+?> -->
 
 <!--loops 5 ------------------------------------------------------------ -->
 <!-- 
@@ -100,3 +100,28 @@ for($i = 1; $i <= $x; $i++ ){
 }
 echo $prdt; 
  ?> -->
+
+
+
+
+
+<!-- fiiiizzzzz buuuzzzzz -->
+ 
+<!-- <?php
+$x = 1;
+for ($i=1; $i <= 50 ; $i++) { 
+
+     if ($x % 3 === 0) {
+         echo "fizz".",\n ";
+     } 
+     elseif ($x % 5 === 0) {
+         echo "Buzz".",\n ";
+     } 
+     elseif ($x % 3 === 0 && $x % 5 === 0){
+         echo "fizz-Buzz!"." ,\n ";
+     } else {
+        echo $x++.",\n ";
+     }
+     echo $x++.",\n ";
+} 
+?> -->
