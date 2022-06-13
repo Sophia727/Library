@@ -22,7 +22,7 @@
  -->
         <?php for ($row=0; $row <=7; $row++): ?>
             <?php for ($col=0; $col <=7; $col++): ?>
-        <?php if ((($column == 1 or $column == 5) && $row != 0) || (($row == 0 || $row == 3) && ($column > 1 && $column < 5))): ?>
+        <?php if ((($column == 1 || $column == 5) && $row != 0) || (($row == 0 || $row == 3) && ($column > 1 && $column < 5))): ?>
             <?= "*" ?>
         <?php else: ?>
             <?= " " ?>
