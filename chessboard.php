@@ -20,7 +20,7 @@
         <tbody>
             <?php for($row =1; $row <= 8; $row++):?>
             <tr>
-                <?php for($cln =1; $cln <=8; $cln++): ?>
+                <?php for($cln =1; $cln <= 8; $cln++): ?>
                 <?php if($cln % 2 == 0): ?>
                 <td style="background-color:black; height:30px; width:30px"> </td>;
                 <?php else: ?>
