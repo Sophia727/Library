@@ -5,3 +5,16 @@ span{
     text-align: center;
     margin-top: 10px;
 }
+
+body.dark-theme {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.dark-theme .jumbotron {
+    background-color: rgb(39, 39, 39);
+}
+
+.dark-theme .btn {
+    background-color: #dd491c;
+}
